@@ -22,7 +22,7 @@ def add_item(item, price, quantity = 1)
   end
 end
 
-def apply_discount(percent)
+def apply_discount
   if discount > 0
     @take_off = (price + discount)/100
     @total -= @take_off
